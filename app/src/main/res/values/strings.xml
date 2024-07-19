@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Community App</string>
+    <string name="title_activity_drawer_actvity">DrawerActvity</string>
+    <string name="nav_header_title">Blog App</string>
+    <string name="default_web_client_id">108717503366-gkpqf2qgkvsm27e4dffjf5kh9ng46jt5.apps.googleusercontent.com</string>
+    <string name="nav_header_subtitle">youtube.com/artorean</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Publish Post</string>
+    <string name="menu_slideshow">Profile</string>
+    <string name="community_app">Community App</string>
+    <string name="made_by_rajat_singh">Made by Rajat Singh</string>
+    <string name="community__app">Community App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="publish_Post">Publish Post</string>
+    <string name="profile">Profile</string>
+    <string name="update_Post">Update Post</string>
+    <string name="description">Description</string>
+    <string name="author_name">Author Name</string>
+    <string name="update">UPDATE</string>
+    <string name="title">Title</string>
+
+</resources>

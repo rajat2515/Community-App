@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Home">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="27sp"
+        android:text="Home" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_below="@id/textView3"
+        android:layout_width="40dp"
+        android:layout_height="5dp"
+        android:layout_alignStart="@id/textView3"
+        android:background="@drawable/light_bg"
+        android:backgroundTint="@color/dark_black" />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_margin="15dp"
+        android:background="@drawable/light_bg"
+        android:backgroundTint="@color/light_white"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Posts"
+        android:queryBackground="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/searchview"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        tools:listitem="@layout/row"
+        android:layout_below="@id/searchview"
+        android:id="@+id/rv_blogs"/>
+
+
+</RelativeLayout>
